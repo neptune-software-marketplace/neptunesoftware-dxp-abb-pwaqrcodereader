@@ -1,0 +1,390 @@
+{
+	"id": "2e3a6232-5216-46ac-bddf-7125b8033228",
+	"createdAt": "2022-02-04T15:51:04.546Z",
+	"updatedAt": "2022-08-02T09:19:36.546Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"changedBy": "kristin.eliassen@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "9414efc9-eb75-480f-afad-1f4630beb7d1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "bb65b0c4-5c4a-4f4c-a1ab-38b2afa4d55c",
+					"fieldName": "oPage",
+					"fieldParent": "9414efc9-eb75-480f-afad-1f4630beb7d1",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "QR Code Scanner",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "6263a6f1-de98-4e1e-cdf7-f8a67e03391f",
+							"fieldName": "sourceSelectPanel",
+							"fieldParent": "bb65b0c4-5c4a-4f4c-a1ab-38b2afa4d55c",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "b5edba2c-fa61-47c7-bd2e-521f29299d1f",
+									"fieldName": "oHTMLObject",
+									"fieldParent": "6263a6f1-de98-4e1e-cdf7-f8a67e03391f",
+									"fieldType": "sap.ui.core.HTML",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "content",
+											"grouping": "Properties",
+											"value": "<video id=video width=100% height=400 style=border: 1px solid gray></video>",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "572f8fee-99f0-493d-a016-206a19aa126f",
+							"fieldName": "oHBoxControl",
+							"fieldParent": "bb65b0c4-5c4a-4f4c-a1ab-38b2afa4d55c",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiLargeMarginTop",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "5c8923a7-691e-467d-ceba-71afc53024e2",
+									"fieldName": "oButtonScan",
+									"fieldParent": "572f8fee-99f0-493d-a016-206a19aa126f",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Start Scan",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://fa-solid/qrcode",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "startScan();",
+											"script": "startScan();",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "30582a1e-565e-4566-9052-1f92c649a3ed",
+									"fieldName": "oButtonScanEnd",
+									"fieldParent": "572f8fee-99f0-493d-a016-206a19aa126f",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Stop Scan",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://sys-cancel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "stopScan();",
+											"script": "stopScan();",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "fe409d66-9509-426f-dd00-b26a8914155c",
+							"fieldName": "oHBoxResult",
+							"fieldParent": "bb65b0c4-5c4a-4f4c-a1ab-38b2afa4d55c",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiTinyMarginTop",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "f0f55538-fd88-4e5b-9622-78f0a927740d",
+									"fieldName": "oTitleScanOutput",
+									"fieldParent": "fe409d66-9509-426f-dd00-b26a8914155c",
+									"fieldType": "sap.m.Title",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "6f286aa1-863e-4c73-ddc0-a5b1c684871a",
+							"fieldName": "oBarFooter",
+							"fieldParent": "bb65b0c4-5c4a-4f4c-a1ab-38b2afa4d55c",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setFooter",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "a821f68b-21d8-4805-d3f1-51616650c58a",
+					"fieldName": "Header_Script",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Text",
+					"script": [
+						"==OBJECT STRING==",
+						"Add to header of Application / Launchpad:",
+						"",
+						"<script src=\"https://unpkg.com/@zxing/library@latest/umd/index.min.js\"></script>"
+					],
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "d7f84cdb-d349-409e-b340-9ac9a3250566",
+					"fieldName": "oJavascript_ZXing",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": [
+						"==OBJECT STRING==",
+						"let selectedDeviceId;",
+						"",
+						"const codeReader = new ZXing.BrowserMultiFormatReader()",
+						"console.log('ZXing code reader initialized')",
+						"codeReader.listVideoInputDevices()",
+						"  .then((videoInputDevices) => {",
+						"    selectedDeviceId = videoInputDevices[0].deviceId;",
+						"",
+						"  })",
+						"  .catch((err) => {",
+						"    console.error(err)",
+						"  })",
+						"",
+						"",
+						"function startScan() {",
+						"",
+						"  codeReader.decodeFromVideoDevice(selectedDeviceId, 'video', (result, err) => {",
+						"    if (result) {",
+						"      //console result to see the output of the scan",
+						"      console.log(result);",
+						"",
+						"      //To view only value of the scan",
+						"      console.log(result.text);",
+						"",
+						"      //Sets it to the UI",
+						"      oTitleScanOutput.setText(result.text)",
+						"",
+						"      //Automatically closes the scanner once a result is captured",
+						"      //codeReader.reset()",
+						"    }",
+						"    if (err && !(err instanceof ZXing.NotFoundException)) {",
+						"      console.error(err)",
+						"",
+						"    }",
+						"  })",
+						"",
+						"}",
+						"",
+						"",
+						"function stopScan() {",
+						"",
+						"  codeReader.reset();",
+						"  ",
+						"}",
+						"",
+						"//  Read further about different implementation procedure on github -https://github.com/zxing-js/library",
+						""
+					],
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"ver": "22.8.2.1119",
+	"application": "nept_bb_qrcode_non_nui_2",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "C",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "<script src=\"https://unpkg.com/@zxing/library@latest/umd/index.min.js\"></script>",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"apis": []
+}

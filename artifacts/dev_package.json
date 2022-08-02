@@ -1,0 +1,47 @@
+{
+	"id": "24966432-4412-ED11-BD6E-000D3AB1D9FF",
+	"createdAt": "2022-08-02T09:19:24.110Z",
+	"createdBy": "kristin.eliassen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-pwaqrcodereader",
+		"testServers": []
+	},
+	"name": "neptunesoftware-dxp-abb-pwaqrcodereader",
+	"description": null,
+	"ver": "22.8.2.920",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "2E3A6232-5216-46AC-BDDF-7125B8033228",
+			"ver": "22.8.2.1119",
+			"application": "nept_bb_qrcode_non_nui_2",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}
