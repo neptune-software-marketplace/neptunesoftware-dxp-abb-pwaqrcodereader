@@ -1,5 +1,5 @@
 {
-	"id": "24966432-4412-ED11-BD6E-000D3AB1D9FF",
+	"id": "24966432-4412-ed11-bd6e-000d3ab1d9ff",
 	"createdAt": "2022-08-02T09:19:24.110Z",
 	"createdBy": "kristin.eliassen@neptune-software.com",
 	"git": {
@@ -13,16 +13,15 @@
 	"enableCICD": true,
 	"apps": [
 		{
-			"id": "2E3A6232-5216-46AC-BDDF-7125B8033228",
-			"ver": "22.8.2.1119",
+			"id": "2e3a6232-5216-46ac-bddf-7125b8033228",
 			"application": "nept_bb_qrcode_non_nui_2",
 			"title": "",
 			"description": ""
 		}
 	],
 	"api": [],
-	"odataMock": [],
 	"odataSource": [],
+	"odataMock": [],
 	"dictionary": [],
 	"jsclass": [],
 	"jsscript_group": [],
@@ -40,8 +39,9 @@
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [],
-	"wf_definition": [],
 	"department": [],
 	"script_scheduler": [],
-	"connector": []
+	"wf_definition": [],
+	"connector": [],
+	"events": []
 }

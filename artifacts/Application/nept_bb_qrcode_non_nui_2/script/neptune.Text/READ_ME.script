@@ -1,0 +1,23 @@
+Add to header of Application / Launchpad: (Is already added to this header!)
+
+<script src="https://unpkg.com/@zxing/library@latest/umd/index.min.js"></script>
+
+DETAILS
+
+1. QR Scanner works on desktop and mobile devices and uses the zxing library.
+
+2. Make sure to allow your browser to open camera before use.
+
+3. Once the "Start scan" button is pressed, the camera will open and you will be ready to scan. Pressented with a QR, the content of the QR (URL, text and etc) will be setted in oTitleScanOutPut.
+
+4. Each time you present a QR, the previous content will vanish since the new content is added in the oTitleScanOutPut. You will be able to see the history of the QR content in the console.
+
+HOW TO USE 
+
+1. Press the 'Start Scann' button and scan your barcode that you wish.
+2. Press the 'Stop Scan' button to close the camera.
+3. Use the content of the QR the way you want. It will be setted at the oTitleScanOutPut title.
+
+
+
+
